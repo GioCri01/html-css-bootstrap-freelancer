@@ -8,9 +8,17 @@
 
 .debug{
     background-color: brown;
-    border: 1px solid black;
-    
+    border: 1px solid black;}
+
+   
+.btn_bg_color {
+    background-color: #1abc9c;
+    border: #1abc9c;
 }
+
+ 
+  
+    
 
 ul{
     list-style: none;
@@ -75,6 +83,7 @@ header .menu_mobile i{
 
 .jumbotron{
     width: 100%;
+    
    padding-top: 100px ; 
    padding-bottom: 50px ;
    background-color: #1abc9c; 
@@ -143,3 +152,10 @@ main img{
     width: 100%;
     border-radius: 10px;
 }
+
+
+main .about{
+ background-color: #1abc9c;
+ text-align: justify;
+ color: white;
+ font-weight: bold;}
