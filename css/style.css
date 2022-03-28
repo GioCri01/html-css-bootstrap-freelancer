@@ -74,7 +74,9 @@ header .menu_mobile i{
 /*Jumbotron*/
 
 .jumbotron{
+    width: 100%;
    padding-top: 100px ; 
+   padding-bottom: 50px ;
    background-color: #1abc9c; 
     
     
@@ -95,4 +97,49 @@ header .menu_mobile i{
     text-align: center;
     font-weight: bold;
     color: white;
+}
+
+.star{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 15px 0;
+    
+}
+
+.star i{
+    vertical-align: middle;
+}
+
+.star .line{
+    display: inline-block;
+    width: 20%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.jumbotron_content .description{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+/*main*/
+main h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main .star{
+    color: black;
+}
+main .star .line{background-color: black;
+}
+
+main img{
+    width: 100%;
+    border-radius: 10px;
 }
