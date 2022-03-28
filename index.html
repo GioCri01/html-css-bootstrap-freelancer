@@ -15,15 +15,15 @@
     <header>
         <div class="container">
             <div class="row justify-content-between ">
-                <div class="col-6 " >
+                <div class="col-6 col-md-8" >
                     <h1>start Bootstrap</h1>
                 </div>
-                <div class="col-6">
+                <div class="col-6 col-md-4">
                     <div class="menu-list">
                         <ul>
-                            <li class="px-3"><a href="#">portfolio</a></li>
-                            <li class="px-3"><a href="#">about</a></li>
-                            <li class="px-3"><a href="#">contact</a></li>
+                            <li class="px-3"><a href="#portfolio">portfolio</a></li>
+                            <li class="px-3"><a href="#about">about</a></li>
+                            <li class="px-3"><a href="#contact">contact</a></li>
                         </ul>
                     </div>
                     
@@ -61,7 +61,7 @@
 
     <main>
         <!--PORTFOLIO-->
-        <div class="container  ">
+        <div id="portfolio" class="container  ">
             <div class="row">
                 <div class="col-12 py-3 ">
                     <h2>Portfolio</h2>
@@ -72,29 +72,35 @@
                     
                 </div>   
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-5  ">
+                <div class="col-12 col-md-6 col-lg-4 mb-5">
                     <img src="img/cabin.png" alt="">
+                    
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+                <div class="col-12 col-md-6 col-lg-4 mb-5  ">
                     <img src="img/cake.png" alt="">
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 position-relative ">
+                    <img src="img/circus.png" alt="">
+                   
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 position-relative">
+                    <img src="img/game.png" alt="">
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-5 position-relative">
+                    <img src="img/safe.png" alt="">
+                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-5 ">
-                    <img src="img/circus.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-5">
-                    <img src="img/game.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-5">
-                    <img src="img/safe.png" alt="">
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 mb-5">
                     <img src="img/submarine.png" alt="">
+                    
                 </div>
             </div>
         
         </div>
         <!--ABOUT-->
-        <div class="about p-5">
+        <div id="about" class="about p-5">
             <div class="container  ">
                 <div class="row ">
                     <div class="col-12   ">
@@ -119,7 +125,7 @@
             </div>
         </div>
         <!--CONTACT-->
-        <div class="contact p-5 ">
+        <div id="contact" class="contact p-5 ">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -172,6 +178,36 @@
 
         </div>
     </main>
+
+    <footer>
+        <div class="container p-5 ">
+            <div class="row">
+                <div class="col-12 col-md-4 px-md-3">
+                    <h4>location</h4> 
+                    <span>2215 John Daniel Drive Clark,MO 54243</span>
+                </div>
+                <div class="col-12 col-md-4 px-md-3">
+                    <h4 class="pb-2">around the web</h4>
+                    <ul class="d-flex justify-content-around">
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 px-md-3">
+                    <h4>about freelancer</h4>
+                    <p>frelance is a free to use,open source bootstrap theme created by <span>start bootstrap</span></p>
+                </div>
+                
+            </div>
+        </div>
+        
+            <div class="credits h100">
+                <span>Copiright your website 2019</span>
+            </div>
+        
+    </footer>
     
     
 </body>

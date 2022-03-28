@@ -28,6 +28,10 @@ a{
     text-decoration: none;
     
 }
+/*general*/
+html{
+    scroll-behavior: smooth;
+}
 
 /*header*/
 
@@ -92,7 +96,8 @@ header .menu_mobile i{
 }
 
 .jumbotron_content{
-    width: 80%;
+    
+    width: 40%;
     margin: 0 auto;
     
 }
@@ -153,9 +158,44 @@ main img{
     border-radius: 10px;
 }
 
+main img:hover{
+    filter: brightness(0.5);
+    cursor: pointer;
+}
+
+
+
+
 
 main .about{
  background-color: #1abc9c;
  text-align: justify;
  color: white;
  font-weight: bold;}
+
+
+ /*footer*/
+ footer{
+     background-color: #3a546d;
+     text-align:center;
+     font-weight: bold;
+     color: white;
+ }
+
+ footer h4{
+     text-transform: uppercase;
+ }
+
+ footer i{
+     
+     border: 1px solid white;
+     padding: 10px;
+     border-radius: 30%;
+     font-size: 30px;
+     color: white;
+ }
+
+ footer .credits{
+     background-color:#2c3e50 ;
+     line-height: 100px;
+ }
